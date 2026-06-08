@@ -11,7 +11,7 @@ int main(){
         return 0;
     }
 
-    ofstream aprobados("aprob.txt", ios::app);
+    ofstream aprobados("aprob.txt", ios::out);
     if(!aprobados){
         cerr << "No se pudo abrir el archivo aprob.txt";
     }
@@ -30,5 +30,5 @@ int main(){
     curso.close();
     aprobados.close();
 
-    cout<<"Se terminó de crear el archivo con los alumnos aprobados"<<endl;
+    cout<<"Se termino de crear el archivo con los alumnos aprobados"<<endl;
 }
