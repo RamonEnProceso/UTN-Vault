@@ -1,0 +1,3 @@
+Listado de alumnos aprobados
+12345 7
+12346 8
