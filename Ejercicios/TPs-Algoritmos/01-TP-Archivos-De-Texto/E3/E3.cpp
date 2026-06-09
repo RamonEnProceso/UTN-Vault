@@ -11,10 +11,9 @@ int main(){
         return 0;
     }
 
-    int legajo, promedio, legajoMayorPromedio;
-    int mayorPromedio = 0;
-    int cantidadAlumnos = 0;
-    int sumaPromedios = 0;
+    int legajo, promedio;
+    int mayorPromedio, legajoMayorPromedio = 0;
+    int cantidadAlumnos, sumaPromedios = 0;
 
     while(curso>>legajo>>promedio){
         cout<<legajo<<" "<<promedio<<endl;
