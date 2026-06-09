@@ -11,7 +11,7 @@ int main(){
         return 0;
     }
 
-    int legajo, promedio, legajoMayorPromedio, promedioGeneral;
+    int legajo, promedio, legajoMayorPromedio;
     int mayorPromedio = 0;
     int cantidadAlumnos = 0;
     int sumaPromedios = 0;
@@ -26,7 +26,7 @@ int main(){
         sumaPromedios += promedio;
     }
 
-    promedioGeneral = sumaPromedios/cantidadAlumnos;
+    int promedioGeneral = sumaPromedios/cantidadAlumnos;
 
     cout << endl << "Cantidad de alumnos: " << cantidadAlumnos << endl;
     cout << "Promedio general: " << promedioGeneral << endl;
